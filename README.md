@@ -12,7 +12,7 @@ node example2.js
 
 Source data: `countries.geojson` from [here](https://github.com/datasets/geo-boundaries-world-110m) 
 
-Converts the JSON file into XML intermediately and then renders it without any style information, uses the `[geojson-mapnikify](https://github.com/mapbox/geojson-mapnikify)` defaults which are specified in [geojson-mapnikify/lib/defaults.js](https://github.com/mapbox/geojson-mapnikify/blob/master/lib/defaults.js).
+Converts the JSON file into XML intermediately and then renders it without any style information, uses the [`geojson-mapnikify`](https://github.com/mapbox/geojson-mapnikify) defaults which are specified in [geojson-mapnikify/lib/defaults.js](https://github.com/mapbox/geojson-mapnikify/blob/master/lib/defaults.js).
 
 Output:
 

@@ -4,8 +4,8 @@
 
 ```
 npm install
-node example1/index.js
-node example2/index.js
+node example1.js
+node example2.js
 ```
 
 ## Example 1

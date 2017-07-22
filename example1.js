@@ -1,5 +1,5 @@
 var mapnik = require('mapnik');
-var mapnikify = require('geojson-mapnikify');
+var mapnikify = require('@mapbox/geojson-mapnikify');
 var fs = require('fs');
 
 var width = 512;
@@ -25,7 +25,7 @@ mapnikify(geojson, false, function(err, xml){
         if (err) throw err;
         im.encode('png', function(err,buffer) {
             if (err) throw err;
-            fs.writeFile(,buffer, function(err) {
+            fs.writeFile(outputFilename, buffer, function(err) {
                 if (err) throw err;
                 console.log('saved map image to '+outputFilename);
             });
@@ -33,4 +33,3 @@ mapnikify(geojson, false, function(err, xml){
       });
   });
 });
-

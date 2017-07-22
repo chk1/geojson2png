@@ -9,7 +9,7 @@
   "author": "",
   "license": "",
   "dependencies": {
-    "geojson-mapnikify": "~0.4.3",
-    "mapnik": "~3.1.6"
+    "@mapbox/geojson-mapnikify": "^0.8.0",
+    "mapnik": "^3.6.2"
   }
 }
